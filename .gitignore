@@ -1,0 +1,12 @@
+/dist
+*.txt
+
+# Logs
+logs
+*.log
+
+.lock
+/node_modules
+
+# Debug log from npm
+npm-debug.log

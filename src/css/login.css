@@ -1,0 +1,70 @@
+body {
+	background: transparent !important;
+	/* border: 1px solid rgb(0, 0, 0); */
+	/* border-radius: 10px; */
+	/* text-align: center; */
+	/* height: 300px; */
+	overflow: hidden;
+}
+
+#divBg {
+	/* padding-bottom: -50px; */
+	/* text-align: center; */
+	background-color: #f8f8f8;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 10px;
+	height: 100%;
+}
+
+/* a.btn {
+            margin-top: 30%;
+        } */
+
+/* input {
+            text-align: center;
+        } */
+
+/* input[type="text"] {
+            font-size: 1.6rem;
+        } */
+
+/* input[type="submit"] {
+            width: 100%;
+            margin-top: 50px;
+        } */
+
+/* .input-field label.active {
+            font-size: 0.9rem;
+        } */
+
+/* .input-field label {
+            font-size: 1.1rem;
+        } */
+
+/* @keyframes fadein {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        } */
+
+/* #btn_close {
+            position: absolute;
+            right: 20px;
+            cursor: pointer;
+        } */
+
+.login-form {
+	width: 300px;
+	height: auto;
+	top: 50%;
+	margin-top: -160px;
+}
+
+.input-material input {
+	padding-bottom: 18px;
+	padding-top: 12px;
+}

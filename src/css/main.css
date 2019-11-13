@@ -1,0 +1,27 @@
+body {
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 1.6rem;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	border-top: 2px solid #999;
+	background-color: rgb(201, 201, 201);
+	color: #222;
+	padding: 3px 5px;
+}
+
+.info-box, .dialog {
+	top: 25px !important;
+}
+
+div.customInfoBox {
+	font-size: 80%;
+	overflow: auto;
+}

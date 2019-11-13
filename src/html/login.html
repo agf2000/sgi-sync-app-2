@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="./../css/jquery.flipster.min.css">
+    <!-- <link rel="stylesheet" href="./../css/materialize.min.css"> -->
+    <link rel="stylesheet" href="./../lib/metro/css/metro-all.min.css">
+    <link rel="stylesheet" href="./../css/nprogress.css">
+    <link rel="stylesheet" href="./../css/pnotify.custom.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <!--Import your style sheets here-->
+    <!-- <link rel="stylesheet" href="./../css/styles.css"> -->
+    <link rel="stylesheet" href="./../css/login.css">
+</head>
+
+<body class="h-vh-100">
+    <div id="divBg" class="d-flex flex-justify-center">
+        <form class="login-form">
+            <div class="container">
+                <h2 class="text-light">Login de Acesso</h2>
+                <hr class="thin mt-4 mb-4 bg-white">
+                <div class="form-group">
+                    <input id="login_prefix" type="text" data-role="materialinput" data-icon="<span class='mif-user'>"
+                        data-label="Login" data-informer="Seu login no SGI" placeholder="Login" data-cls-line="bg-dark"
+                        data-cls-label="fg-dark" data-cls-informer="fg-lightCyan" data-cls-icon="fg-darkCyan">
+                </div>
+                <div class="form-group">
+                    <input id="password_prefix" type="password" data-role="materialinput"
+                        data-icon="<span class='mif-lock'>" data-label="Senha" data-informer="Sua senha no SGI"
+                        placeholder="Senha" data-cls-line="bg-dark" data-cls-label="fg-dark"
+                        data-cls-informer="fg-lightCyan" data-cls-icon="fg-darkCyan">
+                </div>
+                <div class="form-group mt-5">
+                    <button class="button primary" name='btn_login' id="btn_login">Login</button>
+                    <button class="button secondary text-right" name='btn_close' id="btn_close">Fechar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="d-none">
+        <h4>Login de Acesso<span title="Fechar">&times;</span></h4>
+        <br />
+
+        <form id="loginForm" action="#">
+            <div class="row">
+                <div class="input-field col m5 s5 offset-m3 offset-s3">
+                    <i class="large material-icons iconis prefix">account_box</i>
+                    <input type="text" />
+                    <label for="login_prefix">Código do usuário</label>
+                </div>
+                <br />
+
+                <div class="input-field col m5 s5 offset-m3 offset-s3">
+                    <i class="large material-icons iconis prefix">lock</i>
+                    <input type="password" />
+                    <label for="password_prefix">Senha do usuário</label>
+                </div>
+                <br />
+
+                <br />
+                <center>
+                    <div class='row'>
+                        <button type='submit'
+                            class='col m6 s6 offset-m3 offset-s3 btn waves-effect z-depth-1 y-depth-1'>Login</button>
+                    </div>
+                </center>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        var eRequire = require;
+        window.$ = window.jQuery = require('./../js/libs/jquery.min.js');
+        $('#loginForm')[0].reset();
+    </script>
+    <script src="./../js/libs/hammer.min.js" onload="window.Hammer = module.exports;"></script>
+    <script src="./../js/libs/nprogress.js"></script>
+    <!-- <script src="./../js/libs/materialize.min.js"></script> -->
+    <script src="./../lib/metro/js/metro.min.js"></script>
+    <script src="./../js/libs/pnotify/pnotify.custom.min.js"></script>
+    <!--Import your js scripts here  -->
+    <script src="./../js/login.js"></script>
+</body>
+
+</html>
